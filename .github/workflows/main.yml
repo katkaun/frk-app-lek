@@ -16,5 +16,5 @@ jobs:
           token: ${{ secret.GITHUB_TOKEN }}
           diff-search: true # Search for changes in the last commit
 
-      - name: hello-worl
-        run: echo "hello World"
+      - name: hello-world
+        run: echo "Hello World"
